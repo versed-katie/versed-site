@@ -240,3 +240,7 @@ article.post ul, article.post ol { margin: 0 0 1.25rem; padding-left: 1.3rem; di
 .deliverables { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr)); gap: 0 2.5rem; max-width: 60rem; }
 .deliverables li { padding-block: 0.9rem; border-top: 1px solid var(--rule); display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: 0.5rem; }
 .deliverables li::before { content: "✓"; color: #3F6B5F; font-weight: 700; }
+
+/* Client login: present but quiet, so the discovery-call button stays the main action */
+.nav a.nav-login { font-weight: 400; color: var(--slate-soft); padding-left: clamp(0.9rem, 2.5vw, 1.8rem); border-left: 1px solid var(--rule); }
+.nav a.nav-login:hover { color: var(--slate); text-decoration: underline; text-decoration-color: var(--gold); }
